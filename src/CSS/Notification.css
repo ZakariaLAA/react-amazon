@@ -1,0 +1,19 @@
+.notification {
+  display: flex;
+  margin: 20px;
+  width: 300px;
+  border-radius: 7px;
+  padding: 20px;
+  background-color: white;
+  opacity: 0.95;
+  border: 1px solid lightgray;
+  z-index: 1;
+  position: fixed;
+  right: 0;
+  top: 30px;
+  transition: ease-in;
+}
+.notification__image {
+  height: 65px;
+  margin: 10px;
+}

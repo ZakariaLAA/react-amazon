@@ -1,0 +1,45 @@
+.productRow {
+  display: flex;
+  border-bottom: 1px solid lightgray;
+  padding: 20px;
+  background-color: white;
+  margin-top: 10px;
+}
+@keyframes mymove {
+  from {
+    left: 0px;
+  }
+  to {
+    left: -1100px;
+  }
+}
+.productRow__info {
+  display: flex;
+  flex: 1;
+}
+.productRow__image {
+  margin: 20px;
+  height: 160px;
+}
+.productRow__title {
+  width: 100%;
+  margin-right: 20px;
+}
+.productRow__title > h2,
+.productRow__title > div {
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.productRow__title > button {
+  border: 1px solid;
+  background: #f0c14b;
+  border: 1px solid;
+  width: 20%;
+  min-width: 120px;
+  border-radius: 2px;
+  height: 25px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  margin-top: 10px;
+}
